@@ -1,0 +1,428 @@
+Script started on Mon Jul 16 18:31:08 2012
+001:0> string = "Code in Ruby, live longer! 123"
+"Code in Ruby, live longer! 123"
+002:0> string
+"Code in Ruby, live longer! 123"
+003:0> string.gst[Kub[Kb(/\W/,'')
+"CodeinRubylivelonger123"
+004:0> string.gsub(/\W/,'')[1@ /[1@\/[1@d/
+"Code in Ruby, live longer23"
+005:0> string.gsub(/\W \d/,'')ng.gsub(/[1@[\\W \d/,'')[1@]/
+"CodeinRubylivelonger"
+006:0> string.cnar[K[K[Khars.each [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kstriong[K[K[Kng.each d[K{ |s| s[Kputs s }
+NoMethodError: undefined method `each' for "Code in Ruby, live longer! 123":String
+	from (irb):6
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+007:0> string.each { |s| puts s }.[1@ce[1@he[1@ae[1@re[1@se[1@.e
+C
+o
+d
+e
+ 
+i
+n
+ 
+R
+u
+b
+y
+,
+ 
+l
+i
+v
+e
+ 
+l
+o
+n
+g
+e
+r
+!
+ 
+1
+2
+3
+"Code in Ruby, live longer! 123"
+008:0> string.chars.each { |s| puts s }}[K}[K}[K}[K}[K}[K}[K}[K}[K}[K}[K}[K}[K}[K[K[K[K[K[K
+#<Enumerator: "Code in Ruby, live longer! 123":chars>
+009:0> string.chars[8G[Kstring.chars.each { |s| puts s }}[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K(A..Z)
+NameError: uninitialized constant A
+	from (irb):9
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+010:0> (A..Z)([1@'AA'..Z)..Z
+NameError: uninitialized constant Z
+	from (irb):10
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+011:0> '('A'..Z)'Z)Z)')
+"A".."Z"
+012:0> ('A'..'Z').to_a
+["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+013:0> string
+"Code in Ruby, live longer! 123"
+014:0> string.upcas[K[K[K[K[K[Kstr[K[K[K.upcase
+"CODE IN RUBY, LIVE LONGER! 123"
+015:0> sgtrin[K[K[K[K[Ktring.downcase
+"code in ruby, live longer! 123"
+016:0> string.upcase.chars.each { |char| chaar[K[K[K[K[Kputs char }
+C
+O
+D
+E
+ 
+I
+N
+ 
+R
+U
+B
+Y
+,
+ 
+L
+I
+V
+E
+ 
+L
+O
+N
+G
+E
+R
+!
+ 
+1
+2
+3
+"CODE IN RUBY, LIVE LONGER! 123"
+017:0> string.upcase.chars.each { |char| puts char } }[K }[K }[K }[K}[K }[K }[K }[K }[K( }A } }[K' }A }' }' } }[K. }. }' }Z }' }) }. }t }o }_ }a }. }i }n }c }l }u }d }e }? }( }) }) }.upcase.cha
+ArgumentError: wrong number of arguments(0 for 1)
+	from (irb):17:in `include?'
+	from (irb):17:in `block in irb_binding'
+	from (irb):17:in `chars'
+	from (irb):17:in `each'
+	from (irb):17
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+018:0> string
+"Code in Ruby, live longer! 123"
+019:0> string.[K[K[K[K[K[K[Kstr = String.new(string)
+"Code in Ruby, live longer! 123"
+020:0> str.upcase!
+"CODE IN RUBY, LIVE LONGER! 123"
+021:0> str
+"CODE IN RUBY, LIVE LONGER! 123"
+022:0> string
+"Code in Ruby, live longer! 123"
+023:0> str.downco[Kase.[K!.each { |s| [K[Kchar|.[1@.e[1@c.[1@h.[1@a.[1@r.[1@s..each { |char| puts char }
+c
+o
+d
+e
+ 
+i
+n
+ 
+r
+u
+b
+y
+,
+ 
+l
+i
+v
+e
+ 
+l
+o
+n
+g
+e
+r
+!
+ 
+1
+2
+3
+"code in ruby, live longer! 123"
+024:0> str
+"code in ruby, live longer! 123"
+025:0> str.downcase!.chars.each { |char| puts char }s char }[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kstring
+"Code in Ruby, live longer! 123"
+026:0> string[K.downcase!.chars.each { |char| puts char }[11Ging[K[K.upcase![11G = String.new(string)[11Ging[K.upcase.chars.each { |char| ('A'..'Z').to_a.include?() }[14G[K = String.new(string)[11G.upcase![K[11G[King.downcase!.chars.each { |char| puts char }[11G[King[8G[Ks[Ks[Knew_str = "123"
+"123"
+027:0> new_str .char[K[K[K[K[K[K[K[K[K[K[K[Knew_str.chars
+#<Enumerator: "123":chars>
+028:0> new_str.chars[8G[Knew_str.chars[15G = "123"[15G.chars[K.to_a
+["1", "2", "3"]
+029:0> new_str.chars.to_a.include?("B[KB")
+false
+030:0> new_str.chars.to_a.include?("B")")[K1")
+true
+031:0> 
+032:0*   
+033:0*   
+034:0*   
+035:0*   
+036:0*   
+037:0*   
+038:0*   
+039:0*   
+040:0*   
+041:0*   
+042:0*   
+043:0*   
+044:0*   
+045:0*   
+046:0*   
+047:0*   
+048:0*   
+049:0*   
+050:0*   
+051:0*   new_str.chars.to_a.include?("1")B")[28G[K[23G[K[17G = "123"[10Gstring[K[K.downcase!.chars.each { |char| puts char }[13Ging[K[K.upcase![13G = String.new(string)[13Ging[K.upcase.chars.each { |char| ('A'..'Z').to_a.include?() }[16G[K = String.new(string)[13G.upcase![K[13G[King.downcase!.chars.each { |char| puts char }[13G[King[10Gnew_str = "123"[17G.chars[K.to_a.include?("B")1")[10G[Knew_str.chars.to_a.include?("1")
+true
+052:0> new_str.chars.to_a.include?("1")B")
+false
+053:0> new_str.chars.to_a.include?("B")1")B")[26G[K[21G[K[15G = "123"[8Gstring[K[K.downcase!.chars.each { |char| puts char }[11Ging[K[K.upcase![11G = String.new(string)[11Ging[K.upcase.chars.each { |char| ('A'..'Z').to_a.include?() }[42Gputs char }[K[42G('A'..'Z').to_a.include?() }c) }h) }a) }r) }
+"CODE IN RUBY, LIVE LONGER! 123"
+054:0> string.upcase.chars.each { |char| ('A'..'Z').to_a.include?(char) }[1@p([1@u([1@t([1@s([1@ (
+true
+true
+true
+true
+false
+true
+true
+false
+true
+true
+true
+true
+false
+false
+true
+true
+true
+true
+false
+true
+true
+true
+true
+true
+true
+false
+false
+false
+false
+false
+"CODE IN RUBY, LIVE LONGER! 123"
+055:0> puts "hello"
+hello
+nil
+056:0> puts "hello"[8Gstring.upcase.chars.each { |char| puts ('A'..'Z').to_a.include?(char) }[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K}
+"CODE IN RUBY, LIVE LONGER! 123"
+057:0> string.upcase.chars.each { }[K[K[K[K[K[K[K
+#<Enumerator: "CODE IN RUBY, LIVE LONGER! 123":chars>
+058:0> string[K[K[King.upcase.chars[8Gs[1@st[1@ts[1@rs[1@is[1@ns[1@gs[1@_s[1@cs[1@hs[1@as[1@rss[1@st[1@=s[1@ s[1@ =
+#<Enumerator: "CODE IN RUBY, LIVE LONGER! 123":chars>
+059:0> string_chjar[K[K[Kars.each | [K{ |cjar[K[K[Khar| puts char }
+C
+O
+D
+E
+ 
+I
+N
+ 
+R
+U
+B
+Y
+,
+ 
+L
+I
+V
+E
+ 
+L
+O
+N
+G
+E
+R
+!
+ 
+1
+2
+3
+"CODE IN RUBY, LIVE LONGER! 123"
+060:0> string_chars
+#<Enumerator: "CODE IN RUBY, LIVE LONGER! 123":chars>
+061:0> string[K[K[K[K[K[Kstring_chars.each { |char| puts char }[20G = string.upcase.chars[K[20G.each { |char| puts char }[20G = string.upcase.chars[K[14G[15P.[27G.each { }[8Gputs "hello"[K[8Gstring.upcase.chars.each { }
+"CODE IN RUBY, LIVE LONGER! 123"
+062:0> stromg[K[K[King_chars = string.chars.to_a
+["C", "o", "d", "e", " ", "i", "n", " ", "R", "u", "b", "y", ",", " ", "l", "i", "v", "e", " ", "l", "o", "n", "g", "e", "r", "!", " ", "1", "2", "3"]
+063:0> string_chars = string.chars.to_a[14G.upcase.chars.each { }[K[14G_chars[K[14G.upcase.chars.each { }[14G_chars[K.each { |char| puts char }
+C
+o
+d
+e
+ 
+i
+n
+ 
+R
+u
+b
+y
+,
+ 
+l
+i
+v
+e
+ 
+l
+o
+n
+g
+e
+r
+!
+ 
+1
+2
+3
+["C", "o", "d", "e", " ", "i", "n", " ", "R", "u", "b", "y", ",", " ", "l", "i", "v", "e", " ", "l", "o", "n", "g", "e", "r", "!", " ", "1", "2", "3"]
+064:0> string_chars.each { |char| puts char }[20G = string.chars.to_a[K[14G.upcase.chars.each { }[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kstring.[K.chjar[K[K[Kars
+#<Enumerator: "Code in Ruby, live longer! 123":chars>
+065:0> ch[K[Kstring.chars.each { |char| }c}h}a}}[K}[Kh}}[Kh}a}r}.}i}p}}[K}[Ki}}[Ku}p}c}a}s}e} }
+"Code in Ruby, live longer! 123"
+066:0> string.chars.each { |char| char.upcase }[8G[Kupcase_str = _)[K[Kstring.chars.each { c[K|char| char.ui[Kpcase |[K}
+"Code in Ruby, live longer! 123"
+067:0> i[ca[K[K[K[Kupcase_tr[K[K[K _str
+"Code in Ruby, live longer! 123"
+068:0> upcase_str = string.chars.each { |char| char.upcase }.upcase } } }[K }[K }[K }[K }[K }[Kc }h }a }n }e } }[Kg }e }_ }R }_ }t }o }_ }9 } }[K }[K }[K }[K }[K }[K }[K }[K }[K }[K }[K }[K }[Ku } }[K }[K  }= }  }9 }  }i }f }  }c }h }a }r }  }= }= }  }" }R }" }[1@"99[1@"  if char == "R" }
+"Code in Ruby, live longer! 123"
+069:0> upcase_str = string.chars.each { |char| char = "9" if char == "R" }{ |[P [1@d [1@o  |char| ch[Ph[K
+070:1*[12Gif char --[K[K== "R"
+071:2>[12Gchar = "9"[1@ == "9"
+072:2>[12Gend
+073:1>   end
+"Code in Ruby, live longer! 123"
+074:0> endchar = "9"[8G[3@if [17G= "R"[8Gupcase_str = string.chars.each do |char|[39G{ |char| char = "9" if char == "R" }[39Gdo |char|[K[8Gif char == "R"[K[8G[3P[14G "9"[K[8Gend[K[Knew_array = []
+[]
+075:0> new_array = [][8Gend[Kchar = "9"[8G[3@if [17G= "R"[8Gupcase_str = string.chars.each do |char|[39G{ |char| char = "9" if char == "R" }[8G[Pp[Pc[Pa[Ps[Pe[P_[Ps[Pt[Pr[P [P=[P [Psstring.chars.each { |char| char = "9" if char [P [1@d [1@o  |char| char = "9" ifr| [K
+076:1*[12Gif([K char == "R"
+077:2>[12Gnew _sar[K[K[Kara[Kra[K[K[K[K[K[K[K[Kchar = "9"
+078:2>[12Gend
+079:1>   new_array << char
+080:1>   end
+"Code in Ruby, live longer! 123"
+081:0> new_array
+["C", "o", "d", "e", " ", "i", "n", " ", "9", "u", "b", "y", ",", " ", "l", "i", "v", "e", " ", "l", "o", "n", "g", "e", "r", "!", " ", "1", "2", "3"]
+082:0> new_array[8Gend[Knew_array << char[8Gend[Kchar = "9"[8G[3@if [17G= "R"[8Gstring.chars.each do |char|[8Gnew_array = [][K[8Gend[Kchar = "9"[8G[3@if [17G= "R"[8Gupcase_str = string.chars.each do |char|[39G{ |char| char = "9" if char == "R" }[18G[K = string.chars.each { |char| char = "9" if char == "R" }[P [P [P [P [1@m [1@a [1@p  { |char| cchar = "9" if char == "R|  [1@xc[1@~x[1@~x[1@~x~~[Px~[Px[Px[Pc[Ph[Pa[Pr[P [P=[P [P"[P9[P"[P [Pi[Pf[P [Pc[Ph[Pa[Pr[P [P==[P [P [P"R" }[K" }[K }[K}[Ki}c}h}a}}[K}[K}[K}[Kc}h}a}r} }[Ps[Ps[Ps[Ps[Ps[Pt[Ps[Ps[Pt[Ps[Ps[Ps[Ps
+["C", "o", "d", "e", " ", "i", "n", " ", "R", "u", "b", "y", ",", " ", "l", "i", "v", "e", " ", "l", "o", "n", "g", "e", "r", "!", " ", "1", "2", "3"]
+083:0> string.chars.map { |char| char }[8G[1@ns[1@es[1@ws[1@_s[1@as[1@rs[1@rs[1@as[1@ys[1@ s[Ps[1@=s
+["C", "o", "d", "e", " ", "i", "n", " ", "R", "u", "b", "y", ",", " ", "l", "i", "v", "e", " ", "l", "o", "n", "g", "e", "r", "!", " ", "1", "2", "3"]
+084:0> new_array=string.chars.map { |char| char }i}}[K}[K[K[K[K[K[K[K[K[K[K[K[Kdo |char|
+085:1*[12Gif(char == "R")
+086:2>[12Gchar = "9"
+087:2>[12Gend
+088:1>   char
+089:1>   end
+["C", "o", "d", "e", " ", "i", "n", " ", "9", "u", "b", "y", ",", " ", "l", "i", "v", "e", " ", "l", "o", "n", "g", "e", "r", "!", " ", "1", "2", "3"]
+090:0> new_array
+["C", "o", "d", "e", " ", "i", "n", " ", "9", "u", "b", "y", ",", " ", "l", "i", "v", "e", " ", "l", "o", "n", "g", "e", "r", "!", " ", "1", "2", "3"]
+091:0> string.chars.lo[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KEnumerable
+Enumerable
+092:0> Enumerable.methiods[K[K[K[Kods
+[:freeze, :===, :==, :<=>, :<, :<=, :>, :>=, :to_s, :included_modules, :include?, :name, :ancestors, :instance_methods, :public_instance_methods, :protected_instance_methods, :private_instance_methods, :constants, :const_get, :const_set, :const_defined?, :const_missing, :class_variables, :remove_class_variable, :class_variable_get, :class_variable_set, :class_variable_defined?, :public_constant, :private_constant, :module_exec, :class_exec, :module_eval, :class_eval, :method_defined?, :public_method_defined?, :private_method_defined?, :protected_method_defined?, :public_class_method, :private_class_method, :autoload, :autoload?, :instance_method, :public_instance_method, :psych_yaml_as, :yaml_as, :pretty_print_cycle, :pretty_print, :psych_to_yaml, :to_yaml_properties, :to_yaml, :interesting_methods, :pretty_print_instance_variables, :pretty_print_inspect, :nil?, :=~, :!~, :eql?, :hash, :class, :singleton_class, :clone, :dup, :initialize_dup, :initialize_clone, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :frozen?, :inspect, :methods, :singleton_methods, :protected_methods, :private_methods, :public_methods, :instance_variables, :instance_variable_get, :instance_variable_set, :instance_variable_defined?, :instance_of?, :kind_of?, :is_a?, :tap, :send, :public_send, :respond_to?, :respond_to_missing?, :extend, :display, :method, :public_method, :define_singleton_method, :object_id, :to_enum, :enum_for, :psych_y, :pretty_inspect, :equal?, :!, :!=, :instance_eval, :instance_exec, :__send__, :__id__]
+093:0> Enumerable.methods - Ojb[K[Kbject.methods
+[]
+094:0> Enumerable.methods - Object.methods[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[:freeze, :===, :==, :<=>, :<, :<=, :>, :>=, :to_s, :included_modules, :include?, :name, :ancestors, :instance_methods, :public_instance_methods, :protected_instance_methods, :private_instance_methods, :constants, :const_get, :const_set, :const_defined?, :const_missing, :class_variables, :remove_class_variable, :class_variable_get, :class_variable_set, :class_variable_defined?, :public_constant, :private_constant, :module_exec, :class_exec, :module_eval, :class_eval, :method_defined?, :public_method_defined?, :private_method_defined?, :protected_method_defined?, :public_class_method, :private_class_method, :autoload, :autoload?, :instance_method, :public_instance_method, :psych_yaml_as, :yaml_as, :pretty_print_cycle, :pretty_print, :psych_to_yaml, :to_yaml_properties, :to_yaml, :interesting_methods, :pretty_print_instance_variables, :pretty_print_inspect, :nil?, :=~, :!~, :eql?, :hash, :class, :singleton_class, :clone, :dup, :initialize_dup, :initialize_clone, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :frozen?, :inspect, :methods, :singleton_methods, :protected_methods, :private_methods, :public_methods, :instance_variables, :instance_variable_get, :instance_variable_set, :instance_variable_defined?, :instance_of?, :kind_of?, :is_a?, :tap, :send, :public_send, :respond_to?, :respond_to_missing?, :extend, :display, :method, :public_method, :define_singleton_method, :object_id, :to_enum, :enum_for, :psych_y, :pretty_inspect, :equal?, :!, :!=, :instance_eval, :instance_exec, :__send__, :__id__]
+095:0> string.chars.methods =- [K[K - Object.emtho[K[K[K[K[Kmethods
+[:each, :each_with_index, :each_with_object, :with_index, :with_object, :next_values, :peek_values, :next, :peek, :feed, :rewind, :to_a, :entries, :sort, :sort_by, :grep, :count, :find, :detect, :find_index, :find_all, :select, :reject, :collect, :map, :flat_map, :collect_concat, :inject, :reduce, :partition, :group_by, :first, :all?, :any?, :one?, :none?, :min, :max, :minmax, :min_by, :max_by, :minmax_by, :member?, :reverse_each, :each_entry, :each_slice, :each_cons, :zip, :take, :take_while, :drop, :drop_while, :cycle, :chunk, :slice_before]
+096:0> string.chars
+#<Enumerator: "Code in Ruby, live longer! 123":chars>
+097:0> string.chars.methods
+[:each, :each_with_index, :each_with_object, :with_index, :with_object, :next_values, :peek_values, :next, :peek, :feed, :rewind, :inspect, :to_a, :entries, :sort, :sort_by, :grep, :count, :find, :detect, :find_index, :find_all, :select, :reject, :collect, :map, :flat_map, :collect_concat, :inject, :reduce, :partition, :group_by, :first, :all?, :any?, :one?, :none?, :min, :max, :minmax, :min_by, :max_by, :minmax_by, :member?, :include?, :reverse_each, :each_entry, :each_slice, :each_cons, :zip, :take, :take_while, :drop, :drop_while, :cycle, :chunk, :slice_before, :psych_to_yaml, :to_yaml_properties, :to_yaml, :interesting_methods, :pretty_print, :pretty_print_cycle, :pretty_print_instance_variables, :pretty_print_inspect, :nil?, :===, :=~, :!~, :eql?, :hash, :<=>, :class, :singleton_class, :clone, :dup, :initialize_dup, :initialize_clone, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :freeze, :frozen?, :to_s, :methods, :singleton_methods, :protected_methods, :private_methods, :public_methods, :instance_variables, :instance_variable_get, :instance_variable_set, :instance_variable_defined?, :instance_of?, :kind_of?, :is_a?, :tap, :send, :public_send, :respond_to?, :respond_to_missing?, :extend, :display, :method, :public_method, :define_singleton_method, :object_id, :to_enum, :enum_for, :psych_y, :pretty_inspect, :==, :equal?, :!, :!=, :instance_eval, :instance_exec, :__send__, :__id__]
+098:0> Object.methods
+[:yaml_tag, :allocate, :new, :superclass, :freeze, :===, :==, :<=>, :<, :<=, :>, :>=, :to_s, :included_modules, :include?, :name, :ancestors, :instance_methods, :public_instance_methods, :protected_instance_methods, :private_instance_methods, :constants, :const_get, :const_set, :const_defined?, :const_missing, :class_variables, :remove_class_variable, :class_variable_get, :class_variable_set, :class_variable_defined?, :public_constant, :private_constant, :module_exec, :class_exec, :module_eval, :class_eval, :method_defined?, :public_method_defined?, :private_method_defined?, :protected_method_defined?, :public_class_method, :private_class_method, :autoload, :autoload?, :instance_method, :public_instance_method, :psych_yaml_as, :yaml_as, :pretty_print_cycle, :pretty_print, :psych_to_yaml, :to_yaml_properties, :to_yaml, :interesting_methods, :pretty_print_instance_variables, :pretty_print_inspect, :nil?, :=~, :!~, :eql?, :hash, :class, :singleton_class, :clone, :dup, :initialize_dup, :initialize_clone, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :frozen?, :inspect, :methods, :singleton_methods, :protected_methods, :private_methods, :public_methods, :instance_variables, :instance_variable_get, :instance_variable_set, :instance_variable_defined?, :instance_of?, :kind_of?, :is_a?, :tap, :send, :public_send, :respond_to?, :respond_to_missing?, :extend, :display, :method, :public_method, :define_singleton_method, :object_id, :to_enum, :enum_for, :psych_y, :pretty_inspect, :equal?, :!, :!=, :instance_eval, :instance_exec, :__send__, :__id__]
+099:0> Object.methods[8G[6@string.chars[28G[20G[K.methods[20G[K.methods - Object.methods[8G[19PEnumerable[26G[8G[19@string.chars.methods - Object[45G
+[:each, :each_with_index, :each_with_object, :with_index, :with_object, :next_values, :peek_values, :next, :peek, :feed, :rewind, :to_a, :entries, :sort, :sort_by, :grep, :count, :find, :detect, :find_index, :find_all, :select, :reject, :collect, :map, :flat_map, :collect_concat, :inject, :reduce, :partition, :group_by, :first, :all?, :any?, :one?, :none?, :min, :max, :minmax, :min_by, :max_by, :minmax_by, :member?, :reverse_each, :each_entry, :each_slice, :each_cons, :zip, :take, :take_while, :drop, :drop_while, :cycle, :chunk, :slice_before]
+100:0> my_hah[Ksh = [][K[KP{[K[K{}
+{}
+101:0> my_hash ["they came"] = ["down"]
+["down"]
+102:0> my_hash
+{"they came"=>["down"]}
+103:0> my_hash["they came"] = ["down"][K[K[K[K[K[K[K[K[K[K[K[K[Kme"]
+["down"]
+104:0> my_hash [["array_value"]]="my_array_value_value"
+"my_array_value_value"
+105:0> my_hash
+{"they came"=>["down"], ["array_value"]=>"my_array_value_value"}
+106:0> my_hash[15G[["array_value"]]="my_array_value_value"[1@,][1@ ][1@"][1@a][1@n][1@o][1@t][1@h][1@e][1@r][1@ ][1@v][P][P][1@ ][1@v][1@a][1@l][1@u][1@e][1@"]
+"my_array_value_value"
+107:0> my_hash
+{"they came"=>["down"], ["array_value"]=>"my_array_value_value", ["array_value", "another value"]=>"my_array_value_value"}
+108:0> func = def my_function  end
+SyntaxError: (irb):108: syntax error, unexpected keyword_end, expecting ';' or '\n'
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+109:0> func = def my_function endion; end
+nil
+110:0> fucn[K[Knc
+nil
+111:0> my_hash[func] =[K= "my func f[Kvalue"
+"my func value"
+112:0> my_hash
+{"they came"=>["down"], ["array_value"]=>"my_array_value_value", ["array_value", "another value"]=>"my_array_value_value", nil=>"my func value"}
+113:0> my_[K[K[Kmy_hash[nil]
+"my func value"
+114:0> my_hash[nil][15G[K[func] = "my func value"[8Gfunc[K = def my_function; end1end1end end
+nil
+115:0> my_hash[nil] "my[K[K[K= "my nil value"
+"my nil value"
+116:0> my)hash[K[K[K[K[K_hash[func]
+"my nil value"
+117:0> nil.c[KC[Kcklas[K[K[K[Klass
+NilClass
+118:0> nil
+nil
+119:0> :symbol
+:symbol
+120:0> :symbol.ckl[K[Klass
+Symbol
+121:0> hash[K[K[K[Kmy_hash
+{"they came"=>["down"], ["array_value"]=>"my_array_value_value", ["array_value", "another value"]=>"my_array_value_value", nil=>"my nil value"}
+122:0> my_hash[:symbol] = "my symbol string"
+"my symbol string"
+123:0> my_hash
+{"they came"=>["down"], ["array_value"]=>"my_array_value_value", ["array_value", "another value"]=>"my_array_value_value", nil=>"my nil value", :symbol=>"my symbol string"}
+124:0> "nil" == nil
+false
+125:0> my_hash = [][K[K{}[K[K[K[K[K[K[K[K[K[Kparameters = {}
+{}
+126:0> parameters[:username] = "some username"
+"some username"
+127:0> parameters[:password] = "as[Kbc123[K[K[K[K[K[Ksecret"
+"secret"
+128:0> parameters
+{:username=>"some username", :password=>"secret"}
+129:0> parameters[:password] = "secret"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kusername]
+"some username"
+130:0> paa[Krameters["username"] = "some other username"
+"some other username"
+131:0> parameters["username"] = "some other username"sername"] = "so[K
+"some other username"
+132:0> parameters["username"] = "some other username"[30G[K[12G[Kmeters
+{:username=>"some username", :password=>"secret", "username"=>"some other username"}
+133:0> exit
+
+Script done on Mon Jul 16 20:13:29 2012
