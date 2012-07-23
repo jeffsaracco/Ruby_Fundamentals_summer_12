@@ -1,0 +1,269 @@
+Script started on Thu Jul 19 18:31:49 2012
+001:0> any[K[K[Kany_variable = 4
+4
+002:0> \\[K[Kany_variable
+4
+003:0> a
+abort         alias         and           any_variable  at_exit       autoload      autoload?   
+[K003:0> a
+abort         alias         and           any_variable  at_exit       autoload      autoload?   
+[K003:0> a[K
+Display all 348 possibilities? (y or n) 
+!                                !=                               !~                             
+<=>                              ==                               ===                            
+=~                               _                                __callee__                     
+__id__                           __method__                       __send__                       
+`                                abort                            alias                          
+and                              any_variable                     ARGF                           
+ArgumentError                    ARGV                             Array                          
+at_exit                          autoload                         autoload?                      
+BasicObject                      BEGIN                            begin                          
+Bignum                           binding                          Binding                        
+bindings                         block_given?                     break                          
+caller                           case                             catch                          
+cb                               chws                             Class                          
+class                            clone                            Comparable                     
+Complex                          conf                             Config                         
+context                          CROSS_COMPILING                  cws                            
+cwws                             Data                             Date                           
+DateTime                         def                              default_src_encoding           
+define_singleton_method          defined                          Deprecate                      
+Dir                              display                          do                             
+dup                              else                             elsif                          
+Encoding                         EncodingError                    END                            
+end                              ensure                           enum_for                       
+Enumerable                       Enumerator                       ENV                            
+EOFError                         eql?                             equal?                         
+Errno                            eval                             Exception                      
+Exception2MessageMapper          exec                             exit                           
+exit!                            extend                           fail                           
+false                            FALSE                            FalseClass                     
+fg                               Fiber                            FiberError                     
+File                             FileTest                         Fixnum                         
+Float                            FloatDomainError                 for                            
+fork                             format                           freeze                         
+frozen?                          GC                               gem                            
+Gem                              gem_original_require             gets                           
+global_variables                 hash                             Hash                           
+help                             if                               in                             
+include                          IndexError                       initialize                     
+initialize_clone                 initialize_copy                  initialize_dup                 
+inspect                          install_alias_method             instance_eval                  
+instance_exec                    instance_of?                     instance_variable_defined?     
+instance_variable_get            instance_variable_set            instance_variables             
+Integer                          interesting_methods              Interrupt                      
+IO                               IOError                          IRB                            
+irb                              irb_binding                      irb_bindings                   
+irb_cb                           irb_change_binding               irb_change_workspace           
+irb_chws                         irb_context                      irb_current_working_binding    
+irb_current_working_workspace    irb_cwb                          irb_cws                        
+irb_cwws                         irb_exit                         irb_exit_org                   
+irb_fg                           irb_help                         IRB_HISTORY_FILE               
+irb_jobs                         irb_kill                         irb_load                       
+irb_pop_binding                  irb_pop_workspace                irb_popb                       
+irb_popws                        irb_print_working_binding        irb_print_working_workspace    
+irb_push_binding                 irb_push_workspace               irb_pushb                      
+irb_pushws                       irb_pwb                          irb_pwws                       
+irb_quit                         irb_require                      irb_source                     
+irb_workspaces                   is_a?                            iterator?                      
+jobs                             Kernel                           KeyError                       
+kill                             kind_of?                         lambda                         
+load                             LoadError                        local_variables                
+LocalJumpError                   loop                             Marshal                        
+MatchData                        Math                             Method                         
+method                           method_missing                   methods                        
+Module                           module                           Mutex                          
+NameError                        next                             nil                            
+NIL                              nil?                             NilClass                       
+NoMemoryError                    NoMethodError                    not                            
+NotImplementedError              Numeric                          Object                         
+object_id                        ObjectSpace                      open                           
+or                               p                                popb                           
+popws                            PP                               pp                             
+pretty_inspect                   pretty_print                     pretty_print_cycle             
+pretty_print_inspect             pretty_print_instance_variables  PrettyPrint                    
+print                            printf                           private                        
+private_methods                  Proc                             proc                           
+Process                          protected_methods                Psych                          
+psych_to_yaml                    psych_y                          public                         
+public_method                    public_methods                   public_send                    
+pushb                            pushws                           putc                           
+puts                             pwws                             quit                           
+raise                            rand                             Random                         
+Range                            RangeError                       Rational                       
+RbConfig                         readline                         Readline                       
+readlines                        redo                             Regexp                         
+RegexpError                      remove_instance_variable         require                        
+require_relative                 rescue                           respond_to?                    
+respond_to_missing?              retry                            return                         
+RUBY_COPYRIGHT                   RUBY_DESCRIPTION                 RUBY_ENGINE                    
+RUBY_PATCHLEVEL                  RUBY_PLATFORM                    RUBY_RELEASE_DATE              
+RUBY_REVISION                    RUBY_VERSION                     RubyLex                        
+RubyToken                        RubyVM                           RuntimeError                   
+ScanError                        ScriptError                      SecurityError                  
+select                           self                             send                           
+set_trace_func                   Signal                           SignalException                
+singleton_class                  singleton_method_added           singleton_method_removed       
+singleton_method_undefined       singleton_methods                sleep                          
+source                           spawn                            sprintf                        
+srand                            StandardError                    STDERR                         
+STDIN                            STDOUT                           StopIteration                  
+String                           StringIO                         StringScanner                  
+Struct                           super                            Syck                           
+Symbol                           SyntaxError                      syscall                        
+system                           SystemCallError                  SystemExit                     
+SystemStackError                 taint                            tainted?                       
+tap                              test                             then                           
+Thread                           ThreadError                      ThreadGroup                    
+throw                            Time                             to_enum                        
+to_s                             to_yaml                          to_yaml_properties             
+TOPLEVEL_BINDING                 trace_var                        trap                           
+TRUE                             true                             TrueClass                      
+trust                            TypeError                        UnboundMethod                  
+undef                            unless                           untaint                        
+until                            untrace_var                      untrust                        
+untrusted?                       warn                             when                           
+while                            workspaces                       y                              
+YAML                             yield                            ZeroDivisionError              
+[K003:0> u[KR
+Random             Range              RangeError         Rational           RbConfig           Readline         
+Regexp             RegexpError        RUBY_COPYRIGHT     RUBY_DESCRIPTION   RUBY_ENGINE        RUBY_PATCHLEVEL  
+RUBY_PLATFORM      RUBY_RELEASE_DATE  RUBY_REVISION      RUBY_VERSION       RubyLex            RubyToken        
+RubyVM             RuntimeError     
+[K003:0> R[K[1.[K,2,3,4,5,65[K][8G[1@a[[1@ [[1@=[[1@ [[1@r [1@a [1@a [P [P [1@r [1@a [1@y 
+[1, 2, 3, 4, 5, 6]
+004:0> arra.last(2)
+NameError: undefined local variable or method `arra' for main:Object
+	from (irb):4
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+005:0> arra.last(2)arra[1@t.[P.[1@y.
+[5, 6]
+006:0> word[K[K[K[Knuim[K[Km1,num2 = arrayt[K.last(2)
+[5, 6]
+007:0> num1
+5
+008:0> num2
+6
+009:0> num21,num2 = array.last(2))[K3)
+[4, 5, 6]
+010:0> num1
+4
+011:0> num2
+5
+012:0> num4[K5[K3
+NameError: undefined local variable or method `num3' for main:Object
+	from (irb):12
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+013:0> num321,num2 = array.last(3)m2[P [P [P [P [P  = array.last(3)
+[4, 5, 6]
+014:0> num1
+[4, 5, 6]
+015:0> num1 = array.last(3)1[1@, 
+[4, 5, 6]
+016:0> num1, = array.last(3)[12G[K
+4
+017:0> num1, = array.last(3)[1@n [1@u [1@m [1@2 [P [P [P [P [P [P [P [P [P [1@, [1@n [1@u [1@m [1@2 
+SyntaxError: (irb):17: syntax error, unexpected ','
+,num2 = array.last(3)
+ ^
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+018:0> ,num2 = array.last(3)[1@n,[1@i,[1@l,
+SyntaxError: (irb):18: Can't assign to nil
+nil,num2 = array.last(3)
+    ^
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+019:0> array
+[1, 2, 3, 4, 5, 6]
+020:0> array.join('[K[K
+"123456"
+021:0> array/join[K[K[K[K[Kl[K.join "!"
+"1!2!3!4!5!6"
+022:0> nexdt[Kt[K[Kt_wr[Kord = nil
+nil
+023:0> _[Knext+_[K[K_work[Kd = ". ,"
+". ,"
+024:0> next_word./[Kinclude(".",",")
+NoMethodError: undefined method `include' for ". ,":String
+	from (irb):24
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+025:0> next_word.include(".",",")clude[1@?(
+ArgumentError: wrong number of arguments(2 for 1)
+	from (irb):25:in `include?'
+	from (irb):25
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+026:0> next_word.include?(".",",")",")[K,")[K",")[K~",")",")[K,")[K
+true
+027:0> 1+1
+2
+028:0> 1.+ 1
+2
+029:0> 1.+(11[K)
+2
+030:0> ir[K[KFile.open[K[K[K[K[K[K[K[K[Kfi[K[Kulys = Fileop[K[K.open(ulysses[K[K[K[K[K[K[K"ulyssess[K[Ks_boy[Kt/ulysses.txt")
+#<File:ulysses_bot/ulysses.txt>
+031:0> ulys.class
+File
+032:0> il[K[Kulys.inspect
+"#<File:ulysses_bot/ulysses.txt>"
+033:0> ulys.metho[K[Khods - Oj[Kbject.n[Kmethods
+[:lstat, :atime, :mtime, :ctime, :size, :chmod, :chown, :truncate, :flock, :path, :to_path, :reopen, :print, :putc, :puts, :printf, :each, :each_line, :each_byte, :each_char, :each_codepoint, :lines, :bytes, :chars, :codepoints, :syswrite, :sysread, :fileno, :to_i, :to_io, :fsync, :fdatasync, :sync, :sync=, :lineno, :lineno=, :readlines, :read_nonblock, :write_nonblock, :readpartial, :read, :write, :gets, :readline, :getc, :getbyte, :readchar, :readbyte, :ungetbyte, :ungetc, :<<, :flush, :tell, :seek, :rewind, :pos, :pos=, :eof, :eof?, :close_on_exec?, :close_on_exec=, :close, :closed?, :close_read, :close_write, :isatty, :tty?, :binmode, :binmode?, :sysseek, :advise, :ioctl, :fcntl, :pid, :external_encoding, :internal_encoding, :set_encoding, :autoclose?, :autoclose=, :stat, :to_a, :entries, :sort, :sort_by, :grep, :count, :find, :detect, :find_index, :find_all, :select, :reject, :collect, :map, :flat_map, :collect_concat, :inject, :reduce, :partition, :group_by, :first, :all?, :any?, :one?, :none?, :min, :max, :minmax, :min_by, :max_by, :minmax_by, :member?, :each_with_index, :reverse_each, :each_entry, :each_slice, :each_cons, :each_with_object, :zip, :take, :take_while, :drop, :drop_while, :cycle, :chunk, :slice_before]
+034:0> file .[K[K[K[K[Kulys.path
+"ulysses_bot/ulysses.txt"
+035:0> claa[Kss Dog
+036:1>   # bark , poop, fetch
+037:1*[12Gdef bark
+038:2>[12Gputs "woof"
+039:2>[12Gend
+040:1>   
+041:1*[12Gdef poop
+042:2>[12Gputs "plop"
+043:2>[12Gend
+044:1>   
+045:1*[12Gdef fetch
+046:2>[12Gputs "go!"
+047:2>[12Gend
+048:1>   end
+nil
+049:0> fido = Dog.new
+#<Dog:0x007fc5be7518c8>
+050:0> fod[K[Kido.barl[Kk
+woof
+nil
+051:0> fido.poop
+plop
+nil
+052:0> fido.fetch
+go!
+nil
+053:0> [[K{1+[K=>2, 3=>4}[8G[1@h{[1@a{[1@a{[1@s{[1@h{[1@ {[1@={h 
+{1=>2, 3=>4}
+054:0> haash[0]
+nil
+055:0> haash[0]][K\[K[K[K.for[K[Kirst
+[1, 2]
+056:0> haash.first.vale[Kue
+NoMethodError: undefined method `value' for [1, 2]:Array
+	from (irb):56
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+057:0> 
+058:0*   def say_hello
+059:1>   puts "hello"
+060:1>   end
+nil
+061:0> say_hello
+hello
+nil
+062:0> Object.say_hello
+hello
+nil
+063:0> version
+NameError: undefined local variable or method `version' for main:Object
+	from (irb):63
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+064:0> --ber[K[K[K[K[KVERSION
+NameError: uninitialized constant VERSION
+	from (irb):64
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+065:0> EVN[K[K[Kexit
+
+Script done on Sun Jul 22 21:54:14 2012
