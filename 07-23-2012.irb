@@ -1,0 +1,118 @@
+Script started on Mon Jul 23 18:25:36 2012
+001:0> [1,2,3,4,5,6,7,8]
+[1, 2, 3, 4, 5, 6, 7, 8]
+002:0> array = _[K[K= _
+[1, 2, 3, 4, 5, 6, 7, 8]
+003:0> array.first(2)
+[1, 2]
+004:0> array.first(2)[K[K[K[K[K[K[K[K[K[K[K[K[K[Karray
+[1, 2, 3, 4, 5, 6, 7, 8]
+005:0> array.first)2_[K[K[K(2)
+[1, 2]
+006:0> l[Ke[Ke[Kexit
+
+Script done on Mon Jul 23 18:28:25 2012
+Script started on Mon Jul 23 18:38:37 2012
+001:0> puts "what is my return bva[K[K[Kvalue?"
+what is my return value?
+nil
+002:0> exit
+
+Script done on Mon Jul 23 18:39:24 2012
+Script started on Mon Jul 23 18:50:37 2012
+001:0> ran[K[K[Krand(0..199)
+122
+002:0> rand(0..199)
+176
+003:0> rand(0..199)
+45
+004:0> array = )[K(0..199).to_a
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199]
+005:0> array.sample
+83
+006:0> array.sample
+62
+007:0> {1[K
+008:1*[12G"they [K[K[K[K[Kt[K"the people" => "most", "most illed[K[K[Kled" => "the" }
+{"the people"=>"most", "most illed"=>"the"}
+009:0> haas[K[K[Ksh = _
+{"the people"=>"most", "most illed"=>"the"}
+010:0> hsh.keys
+["the people", "most illed"]
+011:0> hsh.keys.sa,[;e[K[K[K[K[Kample
+"most illed"
+012:0> hsh.keys.sample
+"the people"
+013:0> (0..199).rand[Kge[K[K[K[K[Ksample[K[K[K[K[K[Kto_a.sample
+52
+014:0> (0..199).to_a.sample9).to_a.sam[P.[P.[P.[P.[Ps
+NoMethodError: undefined method `sample' for 0..199:Range
+	from (irb):14
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+015:0> exit
+
+Script done on Mon Jul 23 18:56:13 2012
+Script started on Mon Jul 23 19:01:22 2012
+001:0> "[Kstr ing = "this country. How does he"
+"this country. How does he"
+002:0> string.upcase
+"THIS COUNTRY. HOW DOES HE"
+003:0> string[0]
+"t"
+004:0> string[0].upcase
+"T"
+005:0> string[0].upcase[K[K[K[K[K[K[K.capitalize
+"T"
+006:0> string[0].capitalize[P.[P.[P.
+"This country. how does he"
+007:0> string
+"this country. How does he"
+008:0> string[0].upcase =[K == string[0]
+false
+009:0> string = "cpou[K[K[Kpu[K[Kountry. How"
+"country. How"
+010:0> string.cap[i[K[Kitalize
+"Country. how"
+011:0> exit
+
+Script done on Mon Jul 23 19:08:58 2012
+Script started on Mon Jul 23 19:11:33 2012
+001:0> "be[K[K[Kstring = "be"
+"be"
+002:0> string[0]
+"b"
+003:0> string = ""
+""
+004:0> string[0]
+nil
+005:0> string[0].upcase
+NoMethodError: undefined method `upcase' for nil:NilClass
+	from (irb):5
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+006:0> exit[K[K[K[Kexit
+
+Script done on Mon Jul 23 19:12:15 2012
+Script started on Mon Jul 23 19:34:26 2012
+001:0> 1+1
+2
+002:0> 11;[K[K.+(1)
+2
+003:0> 1.methods - Object.methods
+[:-@, :+, :-, :*, :/, :div, :%, :modulo, :divmod, :fdiv, :**, :abs, :magnitude, :~, :&, :|, :^, :[], :<<, :>>, :to_f, :size, :zero?, :odd?, :even?, :succ, :integer?, :upto, :downto, :times, :next, :pred, :chr, :ord, :to_i, :to_int, :floor, :ceil, :truncate, :round, :gcd, :lcm, :gcdlcm, :numerator, :denominator, :to_r, :rationalize, :singleton_method_added, :coerce, :i, :+@, :quo, :remainder, :real?, :nonzero?, :step, :to_c, :real, :imaginary, :imag, :abs2, :arg, :angle, :phase, :rectangular, :rect, :polar, :conjugate, :conj, :between?]
+004:0> 1.methods - Object.methods[8G[K7 .+9
+16
+005:0> Array.new(4[K)
+[]
+006:0> Array.new()3)
+[nil, nil, nil]
+007:0> Array.new(3)[8G[KArray.new(3))[K")"))[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[KStromg/me[K[K[K[K[K[King.new
+""
+008:0> String.new("[K"this")
+"this"
+009:0> ext
+NameError: undefined local variable or method `ext' for main:Object
+	from (irb):9
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p0/bin/irb:16:in `<main>'
+010:0> exit
+
+Script done on Mon Jul 23 20:32:16 2012
