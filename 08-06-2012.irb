@@ -1,0 +1,208 @@
+Script started on Mon Aug  6 18:45:23 2012
+[?1034h1.9.3p194 :001 > classss[K[K Animal
+1.9.3p194 :002?>   def live![K
+1.9.3p194 :003?>     "uhhh"
+1.9.3p194 :004?>     end
+1.9.3p194 :005?>   
+1.9.3p194 :006 >     def live!
+1.9.3p194 :007?>     "AHHHHHH"
+1.9.3p194 :008?>     end
+1.9.3p194 :009?>   end
+ => nil 
+1.9.3p194 :010 > Ani[K[K[Kanimal = Animal.new
+ => #<Animal:0x007fd4b19bb058> 
+1.9.3p194 :011 > animal [K.live
+ => "uhhh" 
+1.9.3p194 :012 > animal.live!
+ => "AHHHHHH" 
+1.9.3p194 :013 > class Dof[Kg < Ania[Kmal
+1.9.3p194 :014?>   def bark
+1.9.3p194 :015?>     "woof"
+1.9.3p194 :016?>     end
+1.9.3p194 :017?>   end[K[K[Kend
+ => nil 
+1.9.3p194 :018 > fido = Dob[Kg.new
+ => #<Dog:0x007fd4b19cbd18> 
+1.9.3p194 :019 > fodo[K[K[Kido.bark
+ => "woof" 
+1.9.3p194 :020 > fido.bark[K[K[K[Klive
+ => "uhhh" 
+1.9.3p194 :021 > fido.live~
+1.9.3p194 :022 >   fido.live~~
+1.9.3p194 :023 >   fido.live~~!
+1.9.3p194 :024 >   end
+SyntaxError: (irb):22: syntax error, unexpected '~', expecting $end
+fido.live~~
+          ^
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :025 > endfido.live~~![K[K[K!
+ => "AHHHHHH" 
+1.9.3p194 :026 > fid.class
+NameError: undefined local variable or method `fid' for main:Object
+	from (irb):26
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :027 > fid.class[Co.class
+ => Dog 
+1.9.3p194 :028 > Dog.class
+ => Class 
+1.9.3p194 :029 > 
+1.9.3p194 :030 >   Class.class
+ => Class 
+1.9.3p194 :031 > Class.class[Csclassuclasspclasseclassrclass
+ => Module 
+1.9.3p194 :032 > Class.superclass.suepr[K[K[Kperclass
+ => Object 
+1.9.3p194 :033 > Class.superclass.superclass.superclass
+ => BasicObject 
+1.9.3p194 :034 > Class.superclass.superclass.superclass.superclass
+ => nil 
+1.9.3p194 :035 > dog.clas[K[K[K[K[K[K[K[Kfido.class
+ => Dog 
+1.9.3p194 :036 > fido.superclass
+NoMethodError: undefined method `superclass' for #<Dog:0x007fd4b19cbd18>
+	from (irb):36
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :037 > fido.superclass[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KDog.superclass
+ => Animal 
+1.9.3p194 :038 > class Ania[Kmal
+1.9.3p194 :039?>   def die
+1.9.3p194 :040?>     ":("
+1.9.3p194 :041?>     end
+1.9.3p194 :042?>   end
+ => nil 
+1.9.3p194 :043 > fido.die
+ => ":(" 
+1.9.3p194 :044 > fido =.[K[K[K[Ko.live!
+ => "AHHHHHH" 
+1.9.3p194 :045 > fido.this_doesnt_exist
+NoMethodError: undefined method `this_doesnt_exist' for #<Dog:0x007fd4b19cbd18>
+	from (irb):45
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :046 > fido/[K.class.siup[K[K[K[K[K
+ => Dog 
+1.9.3p194 :047 > fido.class.superclass
+ => Animal 
+1.9.3p194 :048 > fido.class.superclass/[K.u[Ksuperclass
+ => Object 
+1.9.3p194 :049 > Animal
+ => Animal 
+1.9.3p194 :050 > Animal.methods
+ => [:allocate, :new, :superclass, :freeze, :===, :==, :<=>, :<, :<=, :>, :>=, :to_s, :included_modules, :include?, :name, :ancestors, :instance_methods, :public_instance_methods, :protected_instance_methods, :private_instance_methods, :constants, :const_get, :const_set, :const_defined?, :const_missing, :class_variables, :remove_class_variable, :class_variable_get, :class_variable_set, :class_variable_defined?, :public_constant, :private_constant, :module_exec, :class_exec, :module_eval, :class_eval, :method_defined?, :public_method_defined?, :private_method_defined?, :protected_method_defined?, :public_class_method, :private_class_method, :autoload, :autoload?, :instance_method, :public_instance_method, :nil?, :=~, :!~, :eql?, :hash, :class, :singleton_class, :clone, :dup, :initialize_dup, :initialize_clone, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :frozen?, :inspect, :methods, :singleton_methods, :protected_methods, :private_methods, :public_methods, :instance_variables, :instance_variable_get, :instance_variable_set, :instance_variable_defined?, :instance_of?, :kind_of?, :is_a?, :tap, :send, :public_send, :respond_to?, :respond_to_missing?, :extend, :display, :method, :public_method, :define_singleton_method, :object_id, :to_enum, :enum_for, :equal?, :!, :!=, :instance_eval, :instance_exec, :__send__, :__id__] 
+1.9.3p194 :051 > fido.ancestors
+NoMethodError: undefined method `ancestors' for #<Dog:0x007fd4b19cbd18>
+	from (irb):51
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :052 > fido.ancestors[K[K[K[K[K[K[K[K[K[K[K[K[K[KDog.s[K[Ka.[K[K.ancestors
+ => [Dog, Animal, Object, Kernel, BasicObject] 
+1.9.3p194 :053 > Dag.ancess[K[K[K[K[K[K[K[K[K[Kclass Dog < Animal
+1.9.3p194 :054?>   def initialize(name)
+1.9.3p194 :055?>     @name = name
+1.9.3p194 :056?>     end
+1.9.3p194 :057?>   
+1.9.3p194 :058 >     def bark
+1.9.3p194 :059?>     "myname[K[K[K[K name s[Kis #{name}. wppf[K[K[Koof[1@@[C[C[C[C[C[C[C[C[C[C[C"
+1.9.3p194 :060?>     end
+1.9.3p194 :061?>   emd
+1.9.3p194 :062?>   end
+NameError: undefined local variable or method `emd' for Dog:Class
+	from (irb):61:in `<class:Dog>'
+	from (irb):53
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :063 > endmdnd"my name is #{@name}. woof"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdef bark[K[5Pend@name = namedef initialize(name)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pclass Dog < Animal
+1.9.3p194 :064?>   class Dog < Animalend[Kmdnd"my name is #{@name}. woof"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdef bark[K[5Pend@name = namedef initialize(name)
+1.9.3p194 :065?>     def initialize(name)[2Pclass Dog < Animalend[Kmdnd"my name is #{@name}. woof"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdef bark[K[5Pend@name = name
+1.9.3p194 :066?>     @name = namedef initialize(name)[2Pclass Dog < Animalend[Kmdnd
+1.9.3p194 :067?>   end@name = namedef initialize(name)[2Pclass Dog < Animalend[Kmdnd"my name is #{@name}. woof"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdef bark[K
+1.9.3p194 :068?>     def bark[5Pend@name = namedef initialize(name)[2Pclass Dog < Animalend[Kmdnd"my name is #{@name}. woof"
+1.9.3p194 :069?>     end
+1.9.3p194 :070?>   end
+ => nil 
+1.9.3p194 :071 > fido = Dog.nw[Kew("Fido")
+ => #<Dog:0x007fd4b1964668 @name="Fido"> 
+1.9.3p194 :072 > fido.bark
+ => "my name is Fido. woof" 
+1.9.3p194 :073 > fido.name
+NoMethodError: undefined method `name' for #<Dog:0x007fd4b1964668 @name="Fido">
+	from (irb):73
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :074 > def Dog < Anm[K[K[K[K[K[K[K[K[K[K[K[K[Kclass Dog < Animal
+1.9.3p194 :075?>   def say_nae[Kme
+1.9.3p194 :076?>     @name
+1.9.3p194 :077?>     end
+1.9.3p194 :078?>   end
+ => nil 
+1.9.3p194 :079 > fido.say_name
+ => "Fido" 
+1.9.3p194 :080 > class Dog < Animal
+1.9.3p194 :081?>   def name
+1.9.3p194 :082?>     @name
+1.9.3p194 :083?>     end
+1.9.3p194 :084?>   end
+ => nil 
+1.9.3p194 :085 > fido.name
+ => "Fido" 
+1.9.3p194 :086 > fido.name= "Spot"
+NoMethodError: undefined method `name=' for #<Dog:0x007fd4b1964668 @name="Fido">
+	from (irb):86
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :087 > fido.name= "Spot"
+NoMethodError: undefined method `name=' for #<Dog:0x007fd4b1964668 @name="Fido">
+	from (irb):87
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :088 > class Doc[Kg <A[K Animal
+1.9.3p194 :089?>   def name-[K=(name0[K)
+1.9.3p194 :090?>     @name = name
+1.9.3p194 :091?>     end
+1.9.3p194 :092?>   ene
+1.9.3p194 :093?>   end
+NameError: undefined local variable or method `ene' for Dog:Class
+	from (irb):92:in `<class:Dog>'
+	from (irb):88
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :094 > ended@name = namedef name=(name)class Dog < Animal
+1.9.3p194 :095?>   class Dog < Animalend[Ked@name = namedef name=(name)
+1.9.3p194 :096?>     def name=(name)class Dog < Animalend[Ked@name = name
+1.9.3p194 :097?>     end
+1.9.3p194 :098?>   end
+ => nil 
+1.9.3p194 :099 > fido.name= "Spot"[C[C[C[C[C[K[C[C[C[C[C= "Spot"
+ => "Spot" 
+1.9.3p194 :100 > fido.na,e
+SyntaxError: (irb):100: syntax error, unexpected '\n', expecting '='
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :101 > fido.na,e[K[Kme
+ => "Spot" 
+1.9.3p194 :102 > fido.name
+ => "Spot" 
+1.9.3p194 :103 > fido.name=)[K[K=("Not Spot")
+ => "Not Spot" 
+1.9.3p194 :104 > fido.name
+ => "Not Spot" 
+1.9.3p194 :105 > fido.name = "Fido"
+ => "Fido" 
+1.9.3p194 :106 > f[ido[K[K[K[Kido.aneme[K[K[K[K[Kan[K[Kname
+ => "Fido" 
+1.9.3p194 :107 > fido.name![K[K[K[K[K[K[K[K[K[Kd[Kclass Dog < Animal
+1.9.3p194 :108?>   def name!(name)
+1.9.3p194 :109?>     @name = name
+1.9.3p194 :110?>     end
+1.9.3p194 :111?>   end
+ => nil 
+1.9.3p194 :112 > fido.name! [K"[K "FIDO"
+ => "FIDO" 
+1.9.3p194 :113 > fido.name
+ => "FIDO" 
+1.9.3p194 :114 > fido.name[C! "FIDO"[C[C[1@ 
+(irb):114: warning: string literal in condition
+ArgumentError: wrong number of arguments (1 for 0)
+	from (irb):81:in `name'
+	from (irb):114
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :115 > fido/a[K[K.name=()
+ => nil 
+1.9.3p194 :116 > fido.name-[K=
+1.9.3p194 :117 >   ahh
+NameError: undefined local variable or method `ahh' for main:Object
+	from (irb):117
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :118 > 

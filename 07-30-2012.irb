@@ -1,0 +1,53 @@
+Script started on Mon Jul 30 20:28:51 2012
+[?1034h1.9.3-p194 :001 > class Dog
+1.9.3-p194 :002?>   def bark
+1.9.3-p194 :003?>     'ARF'
+1.9.3-p194 :004?>     end
+1.9.3-p194 :005?>   
+1.9.3-p194 :006 >     def think?
+1.9.3-p194 :007?>     no[K[Kal[K[Kfalse
+1.9.3-p194 :008?>     end
+1.9.3-p194 :009?>   
+1.9.3-p194 :010 >     def[K[K[Kprivate
+1.9.3-p194 :011?>   def breathe[K[K[K[K[K[K[Kdigest
+1.9.3-p194 :012?>     'what?'
+1.9.3-p194 :013?>     end
+1.9.3-p194 :014?>   end
+ => nil 
+1.9.3-p194 :015 > spr[Kart[Kky = Dog.new
+ => #<Dog:0x007f82338e9ba0> 
+1.9.3-p194 :016 > spa[K[K[Kdg[Kag?S[K[Ks?[K[K[K[K[Kspart[Kky.bark
+ => "ARF" 
+1.9.3-p194 :017 > spart[Ky[Kky t[K[K.think
+NoMethodError: undefined method `think' for #<Dog:0x007f82338e9ba0>
+	from (irb):17
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3-p194 :018 > sparky.think?
+ => false 
+1.9.3-p194 :019 > def .digest[K[K[K[K[K[K[K[K[K[K[Kspart[Kky.digest
+NoMethodError: private method `digest' called for #<Dog:0x007f82338e9ba0>
+	from (irb):19
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3-p194 :020 > sparky.digest[Csdigestedigestndigest[Cdigest(digest:digest[C[C[C[C[C[C)
+ => "what?" 
+1.9.3-p194 :021 > def dog[K[K[KDog
+1.9.3-p194 :022?>   def intii[K[K[Kitialize
+1.9.3-p194 :023?>     @name = ^C
+1.9.3-p194 :023 > end
+SyntaxError: (irb):23: syntax error, unexpected keyword_end
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3-p194 :024 > enddef initializeDog[K
+1.9.3-p194 :025?>   def intia[K[K[Kitialize(name)
+1.9.3-p194 :026?>     @name = name
+1.9.3-p194 :027?>     end
+1.9.3-p194 :028?>   end
+ => nil 
+1.9.3-p194 :029 > Dog.new("sparky"([K)
+ArgumentError: wrong number of arguments(1 for 0)
+	from (irb):29:in `initialize'
+	from (irb):29:in `new'
+	from (irb):29
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3-p194 :030 > exit
+
+Script done on Mon Jul 30 20:33:17 2012

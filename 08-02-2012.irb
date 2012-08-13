@@ -1,0 +1,221 @@
+Script started on Thu Aug  2 18:23:13 2012
+[?1034h1.9.3-p194 :001 > class Dog
+1.9.3-p194 :002?>   def speak
+1.9.3-p194 :003?>     "woof"
+1.9.3-p194 :004?>     end
+1.9.3-p194 :005?>   
+1.9.3-p194 :006 >     def "sh[K[K[Kshake"
+1.9.3-p194 :007"> ^C
+1.9.3-p194 :007 > end
+SyntaxError: (irb):7: syntax error, unexpected keyword_end
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3-p194 :008 > class Do
+1.9.3-p194 :009?>   ^C
+1.9.3-p194 :009 > end
+SyntaxError: (irb):9: syntax error, unexpected keyword_end
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3-p194 :010 > class Dog
+1.9.3-p194 :011?>   def speak
+1.9.3-p194 :012?>     "woof"
+1.9.3-p194 :013?>     end
+1.9.3-p194 :014?>   def "sha[K[K[K[Kshake
+1.9.3-p194 :015?>     "shake"
+1.9.3-p194 :016?>     end
+1.9.3-p194 :017?>   def slef[K[K[Kefl[K[Klf.[K[K[K[K[K[K[K[K[Kd[Kend
+ => nil 
+1.9.3-p194 :018 > dog [K[K[K[Kfido = Doc[Kg.new
+ => #<Dog:0x007f967c88f5d0> 
+1.9.3-p194 :019 > sparky.[K = Doc[Kg.new
+ => #<Dog:0x007f967c80ccc0> 
+1.9.3-p194 :020 > fido.speak
+ => "woof" 
+1.9.3-p194 :021 > sparky.shake
+ => "shake" 
+1.9.3-p194 :022 > fido[K[K[K[Kdef fid.c[K[Ko.catch
+1.9.3-p194 :023?>   "frisbee caught"
+1.9.3-p194 :024?>   end
+ => nil 
+1.9.3-p194 :025 > fido.catch
+ => "frisbee caught" 
+1.9.3-p194 :026 > spart[Kky.catch
+NoMethodError: private method `catch' called for #<Dog:0x007f967c80ccc0>
+	from (irb):26
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3-p194 :027 > exit
+
+Script done on Thu Aug  2 18:34:01 2012
+Script started on Thu Aug  2 18:40:05 2012
+[?1034h1.9.3-p194 :001 > [[[[1,][K[K[,2[K[K[K],2],3]]
+ => [[[[1], 2], 3]] 
+1.9.3-p194 :002 > [[[[1],2],3]].flatten
+ => [1, 2, 3] 
+1.9.3-p194 :003 > eit[K[Kxit
+
+Script done on Thu Aug  2 18:40:47 2012
+Script started on Thu Aug  2 18:59:48 2012
+[?1034h1.9.3-p194 :001 > |][K}[K[Ka = [K[K[K[Kshortened_url = "[K"something"
+ => "something" 
+1.9.3-p194 :002 > genereated[K[K[K[K[K[K[K[Knerated_url + [K[K= "another"
+ => "another" 
+1.9.3-p194 :003 > assi[K[K[K[Kwibble = shortened_url
+ => "something" 
+1.9.3-p194 :004 > nil_url = nil
+ => nil 
+1.9.3-p194 :005 > wibbl e= [K[K[K[Ke = nil_url || w[Kshortened_url
+ => "something" 
+1.9.3-p194 :006 > wibble = shortened_url || gem[Knereated[K[K[K[K[Kated-url[K[K[K[K_url
+ => "something" 
+1.9.3-p194 :007 > wibble = shortened_url || generated_url
+ => "something" 
+1.9.3-p194 :008 > nil_url
+ => nil 
+1.9.3-p194 :009 > ||=[K[K[Knil_ulr [K[K[Krl ||= shorteneed[K[K[Ked_url
+ => "something" 
+1.9.3-p194 :010 > nil_url
+ => "something" 
+1.9.3-p194 :011 > generated_url || [K= "shortened_ur[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K= "this is a something"
+ => "another" 
+1.9.3-p194 :012 > gebre[K[K[Knerated_url = false
+ => false 
+1.9.3-p194 :013 > generated_url = false||= "this is a something"
+ => "this is a something" 
+1.9.3-p194 :014 > {[K{destination_url: "http://whatever.com", shortened_url: "ABACAD"}
+ => {:destination_url=>"http://whatever.com", :shortened_url=>"ABACAD"} 
+1.9.3-p194 :015 > "str[K[K[Ka string".object)d[K[K)[K_id
+ => 70130457451480 
+1.9.3-p194 :016 > "a string".object_id
+ => 70130462356960 
+1.9.3-p194 :017 > ni.objec[K[K[K[K[K[Kl.object_id
+ => 4 
+1.9.3-p194 :018 > nil.object_id
+ => 4 
+1.9.3-p194 :019 > nil.object_id
+ => 4 
+1.9.3-p194 :020 > true.object_id
+ => 2 
+1.9.3-p194 :021 > true.object_id[C[1P.object_id[1P.object_id[1P.object_id[1P.object_idf.object_ida.object_idl.object_ids.object_ide.object_id
+ => 0 
+1.9.3-p194 :022 > :sy[K[K[K:h[Kjohnny
+ => :johnny 
+1.9.3-p194 :023 > :johnny.p[Kobject_id
+ => 461128 
+1.9.3-p194 :024 > :johnny.object_id
+ => 461128 
+1.9.3-p194 :025 > :johnny.object_id
+ => 461128 
+1.9.3-p194 :026 > :johnny.object_id
+ => 461128 
+1.9.3-p194 :027 > exit
+
+Script done on Thu Aug  2 19:30:58 2012
+Script started on Thu Aug  2 19:53:04 2012
+[?1034h1.9.3-p194 :001 > class Dog
+1.9.3-p194 :002?>   def "speak[K[K[K[K[K[Kspeak
+1.9.3-p194 :003?>     "w00f"
+1.9.3-p194 :004?>     end
+1.9.3-p194 :005?>   end
+ => nil 
+1.9.3-p194 :006 > Dog.newfDog.newoDog.newiDog.newdDog.newoDog.new[1PDog.new[1PDog.new[1PDog.new[1PDog.new[1PDog.newfDog.newoDog.new[1PDog.newiDog.newdDog.newoDog.new Dog.new=Dog.new Dog.new
+ => #<Dog:0x007f934c098c88> 
+1.9.3-p194 :007 > fido.spek[Kak
+ => "w00f" 
+1.9.3-p194 :008 > fido.shake
+NoMethodError: undefined method `shake' for #<Dog:0x007f934c098c88>
+	from (irb):8
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3-p194 :009 > def fido.method_missing
+1.9.3-p194 :010?>   end
+ => nil 
+1.9.3-p194 :011 > enddef fido.method_missing(params)
+1.9.3-p194 :012?>   "You called " + params.is[Knspect
+1.9.3-p194 :013?>   end
+ => nil 
+1.9.3-p194 :014 > end"You called " + params.inspect[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdef fido.method_missing(params)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cend[Kdef fido.method_missing[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pfido.shake
+ => "You called :shake" 
+1.9.3-p194 :015 > fido.findy[K_by_doggy_id_and_collo[Kar
+ => "You called :find_by_doggy_id_and_collar" 
+1.9.3-p194 :016 > fido.methods[K[K[K[K[K[K[K[K[K[K[K[K
+Display all 326 possibilities? (y or n)
+1.9.3-p194 :016 > fido.find_by_doggy_id_and_collar[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cshake[Kend[K"You called " + params.inspect[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdef fido.method_missing(params)[K[K[K[K[K[K[Kmethod)
+1.9.3-p194 :017?>   method[K[K[K[K[K[Kgrep([K[K[K[K[K/method/[K[K[K[K[K[K[K[Kmethod.grep(/_[K^find_by$[K/)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cimethod.grep(/^find_by/)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfmethod.grep(/^find_by/) method.grep(/^find_by/)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C puts Y[K"you are calling_find[K[K[K[K[K fun[K[Kind_by"
+1.9.3-p194 :018?>     else super
+1.9.3-p194 :019?>     end
+1.9.3-p194 :020?>   end
+(irb):19: warning: else without rescue is useless
+SyntaxError: (irb):17: syntax error, unexpected tIDENTIFIER, expecting keyword_then or ';' or '\n'
+if method.grep(/^find_by/) puts "you are calling find_by"
+                               ^
+(irb):20: syntax error, unexpected keyword_end, expecting $end
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3-p194 :021 > endlse superif method.grep(/^find_by/) puts "you are calling find_by"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pdef fido.method_missing(method)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfido.find_by_doggy_id_and_collar[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pdef fido.method_missing(method)
+1.9.3-p194 :022?>   def fido.method_missing(method)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cend[Klse superif method.grep(/^find_by/) puts "you are calling find_by"[C[C[1@i[1P
+1.9.3-p194 :023?>     ^C
+1.9.3-p194 :023 > if method.grep(/^find_by/) puts "you are calling find_by"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pdef fido.method_missing(method)
+1.9.3-p194 :024?>   def fido.method_missing(method)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cif method.grep(/^find_by/) puts "you are calling find_by"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+1.9.3-p194 :025?>     puts "calling find_by"
+1.9.3-p194 :026?>     ele[Kse
+1.9.3-p194 :027 >       super
+1.9.3-p194 :028?>     end
+1.9.3-p194 :029?>   end
+ => nil 
+1.9.3-p194 :030 > find[K[Kdo.shake
+NoMethodError: undefined method `grep' for :shake:Symbol
+	from (irb):24:in `method_missing'
+	from (irb):30
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3-p194 :031 > fido.shake[K[K[K[K[Kfund[K[K[K[K[K[K[K[K[K:sym.methods - o[KOjbec.[K[K[K[K[Kbject.methods
+ => [:id2name, :intern, :to_sym, :to_proc, :succ, :next, :casecmp, :[], :slice, :length, :size, :empty?, :match, :upcase, :downcase, :capitalize, :swapcase, :encoding, :between?] 
+1.9.3-p194 :032 > :sym.match
+ArgumentError: wrong number of arguments(0 for 1)
+	from (irb):32:in `match'
+	from (irb):32
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3-p194 :033 > :sym.match(/sy/)
+ => 0 
+1.9.3-p194 :034 > :sym.match(/sy/)[C[1Py/)[Cm/)
+ => 1 
+1.9.3-p194 :035 > :sym.match(/ym/)sy/)[Kethods - Object.methods[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pfido.shakeend[Ksuper[1Pelseputs "calling find_by"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cif method.grep(/^find_by/)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdef fido.method_missing(method)
+1.9.3-p194 :036?>   def fido.method_missing(method)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15P:sym.match(/ym/)sy/)[Kethods - Object.methods[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pfido.shakeend[Ksuper[1Pelseputs "calling find_by"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cif method.grep(/^find_by/)[C[C[C[C[1P(/^find_by/)[1P(/^find_by/)[1P(/^find_by/)[1P(/^find_by/)m(/^find_by/)a(/^find_by/)t(/^find_by/)c(/^find_by/)h(/^find_by/)
+1.9.3-p194 :037?>     puts "find_by"
+1.9.3-p194 :038?>     else
+1.9.3-p194 :039 >       super
+1.9.3-p194 :040?>     end
+1.9.3-p194 :041?>   end
+ => nil 
+1.9.3-p194 :042 > fido.shake
+NoMethodError: undefined method `shake' for #<Dog:0x007f934c098c88>
+	from (irb):39:in `method_missing'
+	from (irb):42
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3-p194 :043 > fido.fun[K[Kind_by_collar_tag
+find_by
+ => nil 
+1.9.3-p194 :044 > def String.+
+1.9.3-p194 :045 >     "AHHHHH WHAT AM I DOING"
+1.9.3-p194 :046?>   end
+ => nil 
+1.9.3-p194 :047 > "this is a stirng" + "whatever"
+ => "this is a stirngwhatever" 
+1.9.3-p194 :048 > "this is a stirng" + "whatever"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cend[K"AHHHHH WHAT AM I DOING"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pdef String.+fido.find_by_collar_tag[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pdef String.+[C[1Ptring.+string.+[1Ptring.+String.+[C[C[C[C[CCString.+lString.+aString.+sString.+sString.+[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kclass Stirng[K[K[K[Kring
+1.9.3-p194 :049?>   def + [K
+1.9.3-p194 :050 >       "AJH[K[K[K[K^C
+1.9.3-p194 :050 > def +class String"this is a stirng" + "whatever"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cend[K"this is a stirng" + "whatever"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pclass String
+1.9.3-p194 :051?>   def + [K(other)
+1.9.3-p194 :052?>     "AHHHHHHHH"
+1.9.3-p194 :053?>     end
+1.9.3-p194 :054?>   end
+ => nil 
+1.9.3-p194 :AHHHHHHHH > end"AHHHHHHHH"def +(other)class String[7Pdef +class String"this is a stirng" + "whatever"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cend[K"this is a stirng" + "whatever"
+1.9.3-p194 :AHHHHHHHH > exit
+1.9.3-p194 :AHHHHHHHH > exit
+1.9.3-p194 :AHHHHHHHH > 
+NameError: uninitialized constant AHHHHHHHHAHHHHHHHHAHHHHHHHH
+AHHHHHHHH
+AHHHHHHHH
+1.9.3-p194 :AHHHHHHHH > 
+
+Script done on Thu Aug  2 20:05:03 2012
+Script started on Thu Aug  2 20:05:05 2012
+[?1034h1.9.3-p194 :001 > exit
+
+Script done on Thu Aug  2 20:09:05 2012

@@ -1,0 +1,13 @@
+Script started on Thu Jul 26 19:56:08 2012
+[?1034h1.9.3-p194 :001 > hash = {"url"=>"ht[K[K[K"http://www.google.com"}
+ => {"url"=>"http://www.google.com"} 
+1.9.3-p194 :002 > hash = {"url"=>"http://www.google.com"}^C
+1.9.3-p194 :002 > hash [K["user_name"] = "[K[K[K= "Jpo[K[Kohnny"
+ => "Johnny" 
+1.9.3-p194 :003 > hash
+ => {"url"=>"http://www.google.com", "user_name"=>"Johnny"} 
+1.9.3-p194 :004 > hash["url"]
+ => "http://www.google.com" 
+1.9.3-p194 :005 > exit
+
+Script done on Thu Jul 26 19:58:19 2012

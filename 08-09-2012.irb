@@ -1,0 +1,31 @@
+Script started on Thu Aug  9 18:48:24 2012
+[?1034h1.9.3p194 :001 > h[Kmy_hash[K[K[K[K[K[K[Khah[K[K[Kfruit_hash = {}[K:banana => 4, :apple,[K => 45, :donut => 2344}
+ => {:banana=>4, :apple=>45, :donut=>2344} 
+1.9.3p194 :002 > fr
+freeze      frozen?     fruit_hash  
+1.9.3p194 :002 > fruit_hash[[K.dontu[K[Kut
+NoMethodError: undefined method `donut' for {:banana=>4, :apple=>45, :donut=>2344}:Hash
+	from (irb):2
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :003 > fruit_hash.donut[K[K[K[K[K[K[[K[:donut]
+ => 2344 
+1.9.3p194 :004 > fruit_hash :donut
+SyntaxError: (irb):4: syntax error, unexpected ':', expecting $end
+fruit_hash :donut
+            ^
+	from /Users/jeffsaracco/.rvm/rubies/ruby-1.9.3-p194/bin/irb:16:in `<main>'
+1.9.3p194 :005 > fruit_hahs[K[Ksh([K.fetch*[K(:donut, a[K"badsknv[K[K[K[K[K[K[K[K[K[K)
+ => 2344 
+1.9.3p194 :006 > fruit_hash.fetch(:donut)
+ => 2344 
+1.9.3p194 :007 > fruit_hash.fetch[K[K[K[K[K[K[:kiwi]
+ => nil 
+1.9.3p194 :008 > fruit_hash.fetch(:kwiw[K[K[Kiwi, 0)
+ => 0 
+1.9.3p194 :009 > r[Kfryu[K[Kuit_hahs[K[Ksh
+ => {:banana=>4, :apple=>45, :donut=>2344} 
+1.9.3p194 :010 > b[Kvege[Kgie_hash = { [Kbroccolui[K[Ki:[K[Kli: [K[K[Klllli: 123, carrots: 12, beets: 4873847389}
+ => {:broccolllllli=>123, :carrots=>12, :beets=>4873847389} 
+1.9.3p194 :011 > exit
+
+Script done on Thu Aug  9 18:55:05 2012
